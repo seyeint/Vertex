@@ -1,5 +1,5 @@
-Vertex v0.6
-    "A megalomaniac's Waterloo".
+##Vertex v0.6
+    ####"A megalomaniac's Waterloo".
     Randomized non-sequential trading simulator.
     Periods of n-days, called trading cycles, are created from legit instrument data.
     Chart data undergoes a random mathematical transformation each cycle - both time and price. No instrument memory "overfit".
