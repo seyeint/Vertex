@@ -1,0 +1,46 @@
+Vertex v0.6
+    "A megalomaniac's Waterloo".
+    Randomized non-sequential trading simulator.
+    Periods of n-days, called trading cycles, are created from legit instrument data.
+    Chart data undergoes a random mathematical transformation each cycle - both time and price. No instrument memory "overfit".
+    Complete all cycles and analyse the results of your methods.
+    Fake edges will be exposed.
+
+
+How to use:
+    Change paths both on _innit and on _vertex. "Pathing" section on _vertex. No mac, no need to change the mac path.
+    First time you need to run _innit, check the code for some possible changes depending on personal preference.
+    Run _innit more than once after you made a lot of progress if you enjoy losing progress (or in order to reset).
+    Maybe change the class to resources to be comfortable (it's on /resources/buttons/ now).
+    You can enter a trade without TP but you have to enter the trade with an SL (this is a lvg workplace sir, no SL is simply not allowed).
+
+
+    Macros --> 1,2,3,4 for timeframes
+               SpaceBar for next 15m candle.
+               When initialized, timeframe box will be selected although not noticeable. Click on chart in case macros not working properly.
+               All the trades will only be saved at the end of the trading cycle, meaning after clicking the checkmark on the top left (Done).
+
+    Trade datapoints --> Double click candle, check for the update of the buttons.
+                         Bottom buttons are:
+                         X - cancel current trade (check combo-box and entry line width).
+                         Low Battery - low confidence marker (for personal statistical purposes). Re-click to cancel.
+                         Banknote - Take-profit, move the 2nd point wherever you want, it will only care about the % it lands on.
+                         Broken banknote - Stop-loss.
+                         Both TP/SL fade after you move forward. Re-click to view/change them or wait until the play gets filled.
+
+                         *Any button click will enable effects on the specific play selected in the center combo-box.
+                         *After entering a trade, its details pop up and the candle that filled it is already processed (no cheating possible)
+                         but you can still change them before advancing to the next candle.
+
+
+Special occasions:
+    Just play around it before resetting and starting a new serious _innit setup, it should be an intuitive tool but:
+    Can't add an entry to the last candle, tp/sl will not show. It wasn't accounted for on purpose (this is not a momentum trading simulator).
+    If you have an entry level really close to the last candle and move up on timeframes, you won't see the level until a new candle (on that higher tf) appears.
+    It might be shifting front running one's choices 0.01%, check the code to change that.
+
+
+Pre-Git:
+    Made this for myself a few years ago and I still use it and open a notebook to analyse my results from time to time. It is what it is, nothing more.
+    Won't provide other instruments' data, but they're not hard to find. Certain instruments will lack quality unless you pay, that's just how the game works.
+
