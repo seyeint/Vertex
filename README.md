@@ -1,4 +1,3 @@
-## Vertex 
 #### "A megalomaniac's Waterloo"  
 Randomized non-sequential trading simulator. <br />
 Periods of n-days, called trading cycles, are created from legit instrument data. <br />
