@@ -13,6 +13,7 @@ How to use:
     Run _innit more than once after you made a lot of progress if you enjoy losing progress (or in order to reset).
     Maybe change the class to resources to be comfortable (it's on /resources/buttons/ now).
     You can enter a trade without TP but you have to enter the trade with an SL (this is a high lvg workplace sir, no innitial SL is simply not allowed).
+    When the cycle is over, you click the top left done check mark and only then will the executed trades be saved into the system and a new cycle begins. 
 
 
     Macros --> 1,2,3,4 for timeframes
@@ -29,7 +30,7 @@ How to use:
                          Both TP/SL fade after you move forward. Re-click to view/change them or wait until the play gets filled.
 
                          *Any button click will enable effects on the specific play selected in the center combo-box.
-                         *After entering a trade, its details pop up and the candle that filled it is already processed (no cheating possible)
+                         *After entering a trade, its details pop up and the candle that filled it is already processed (no cheating possible),
                          but you can still change them before advancing to the next candle.
 
 
