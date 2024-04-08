@@ -7,4 +7,4 @@ Fake edges will be exposed. <br />
 
 ![Vertex](https://github.com/seyeint/Vertex/assets/36778187/5b58c3e8-1165-4b44-a35d-edd2c54571e0)
 
-PS: Warning: set_time_inspector() is a misnomer from olden days. Please use set_mouse_callback() instead.
+Warning: set_time_inspector() is a misnomer from olden days. Please use set_mouse_callback() instead.
