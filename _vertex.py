@@ -38,7 +38,7 @@ final_date = 1688947200  # Monday, 10 July 2023 00:00:00
 
 
 def obfuscation(row, y):
-    """Not going for a strong obfuscation, personally. Obfuscation chances each time we open the program, nevertheless."""
+    """Not going for a strong obfuscation, personally. Obfuscation chances each time we open the program or start the next cycle, nevertheless."""
     row['high'] = row['high'] * y
     row['low'] = row['low'] * y
     row['open'] = row['open'] * y
